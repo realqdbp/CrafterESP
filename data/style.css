@@ -1,0 +1,62 @@
+html, body{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 100%;
+    background-color: #6A7383;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
+    gap: 0.5em;
+    height: 100%;
+}
+
+.buttonDiv{
+    cursor: pointer;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 1em;
+    background-color: white;
+}
+
+#5{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#4{
+    grid-row-start: 2;
+}
+
+.hängeschrank{
+    grid-column-start: 2;
+}
+
+.außenlicht{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.heizstab{
+    grid-row-start: 3;
+}
+
+#alle{
+    background-color: #7B8698;
+    grid-row-start: 4;
+    grid-column: 1 / 3;
+}

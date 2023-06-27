@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafter Controller</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+
+    <div id="container">
+        <div class="buttonDiv deckenlicht" id="5" onclick="sendHTTPRequest(5)">Decke 1</div>
+        <div class="buttonDiv hängeschrank" id="0" onclick="sendHTTPRequest(0)">Hängeschrank</div>
+        
+        <div class="buttonDiv deckenlicht" id="4" onclick="sendHTTPRequest(4)">Decke 2</div>
+        <div class="buttonDiv außenlicht" id="2" onclick="sendHTTPRequest(2)">Außenlicht</div>
+        <div class="buttonDiv heizstab" id="14" onclick="sendHTTPRequest(14)">Heizstab 1</div>
+        <div class="buttonDiv heizstab" id="12" onclick="sendHTTPRequest(12)">Heizstab 2</div>
+        <div class="buttonDiv" id="alle" onclick="allOff()">Alle Aus</div>
+    </div>
+
+</body>
+</html>
